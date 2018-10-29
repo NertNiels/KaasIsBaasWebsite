@@ -1,0 +1,159 @@
+
+@font-face {
+  src: url(fonts/GlacialIndifference-Bold.otf);
+  font-family: GlacialIndifference;
+}
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+
+  background-color: #528fff;
+
+}
+
+#navi {
+  background-color: #5271ff;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+}
+
+#navi img {
+  float: left;
+  height:100%;
+}
+
+#navi ul {
+  height:100%;
+
+  display: inline;
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 16px;
+
+  background-color: #5271ff;
+
+  overflow: hidden;
+
+}
+
+#navi ul a {
+
+  line-height: 100px;
+
+  display: inline-block;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  color: #ffffff;
+
+  font-family: GlacialIndifference;
+  text-align: center center;
+  text-decoration: none;
+}
+
+#navi ul a:hover {
+  background-color: #274efd;
+}
+
+
+
+#header {
+  background-color: #5271ff;
+  width: 100%;
+  height: 100%;
+
+  padding-bottom: 0px;
+
+}
+
+#left {
+  width: 50%;
+  height: 100%;
+  float: left;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#left h1 {
+  padding-top: 80px;
+  text-align: right;
+
+  font-size: 120px;
+}
+
+#right {
+  width: 50%;
+  height: 100%;
+  float: right;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.black {
+  color: black;
+}
+
+#header img {
+  padding: 0;
+  display: block;
+}
+
+.para {
+  margin-top: 0px;
+  padding-bottom: 10%;
+  width: 100%;
+  /* height: 100%; */
+  background-color: 528fff;
+}
+
+#who {
+  background-color: 528fff;
+}
+
+#greencontainer {
+  background-color: #5979ff;
+}
+
+.para h1 {
+  text-align: center;
+  font-size: 100px;
+
+  font-family: GlacialIndifference;
+  color: white;
+
+  margin-top: 0px;
+  padding-top: 10%;
+}
+
+
+.text-container {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-container p {
+  font-family: GlacialIndifference;
+  font-size: 24px;
+  color: white;
+}
+
+.image-container {
+  display: inline-block;
+  text-align: center;
+  width: 33%;
+}
+
+.image-container img {
+  width: 90%;
+}
