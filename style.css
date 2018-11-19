@@ -103,6 +103,10 @@ html, body {
   color: black;
 }
 
+.tab {
+  margin-left: 5em;
+}
+
 #header img {
   padding: 0;
   display: block;
