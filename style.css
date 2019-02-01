@@ -163,6 +163,8 @@ html, body {
 }
 
 .video-container {
+  display: inline-block;
+  text-align: center;
   width: 33%;
 }
 
