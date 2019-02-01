@@ -166,6 +166,7 @@ html, body {
   display: inline-block;
   text-align: center;
   width: 33%;
+  height: 100%
 }
 
 .video-container iframe {
