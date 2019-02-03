@@ -171,4 +171,5 @@ html, body {
 
 .video-container iframe {
   width: 90%;
+  height: auto;
 }
