@@ -92,6 +92,8 @@ html, body {
   text-align: right;
 
   font-size: 5vw;
+	
+  padding-top: 0;
 }
 
 #right {
@@ -126,7 +128,7 @@ html, body {
 		font-size: 10vw;
 	}
 	#right {
-		margin-top: 20vh;
+		margin-top: 10vh;
 	}
 	#right img {
 		height: 40vh;
