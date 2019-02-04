@@ -16,7 +16,7 @@ html, body {
 #navi {
   background-color: #5271ff;
   width: 100%;
-  height: 100px;
+  height: 10vh;
   position: fixed;
   top: 0;
 }
@@ -50,7 +50,7 @@ html, body {
 
 #navi ul a {
 
-  line-height: 100px;
+  line-height: 10vh;
 
   display: inline-block;
   padding-left: 16px;
@@ -89,7 +89,6 @@ html, body {
 }
 
 #left h1 {
-  padding-top: 80px;
   text-align: right;
 
   font-size: 5vw;
@@ -110,17 +109,33 @@ html, body {
   height:auto;
 }
 
+#header img {
+  padding: 0;
+  display: block;
+}
+
+@media screen and (max-width: 400px) {
+	#left, #right {
+		width: 100%;
+		height: 50%;
+		justify-content: center;
+		align-items: start;
+	}
+	#left h1 {
+		text-align: center;
+		font-size: 10vw;
+	}
+	#right {
+		margin-top: 10vh;
+	}
+}
+
 .black {
   color: black;
 }
 
 .tab {
   padding-left: 5em;
-}
-
-#header img {
-  padding: 0;
-  display: block;
 }
 
 .para {
