@@ -132,7 +132,7 @@ html, body {
 	}
 	#right img {
 		height: 40vh;
-		width: auto;
+		max-width: auto;
 	}
 }
 
