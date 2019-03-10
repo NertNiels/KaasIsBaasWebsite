@@ -10,8 +10,8 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(WIDTH, HEIGHT);
-  fontSize = (50/800) * WIDTH;
+  createCanvas(windowWidth, windowHeight);
+  fontSize = (50/800) * width;
   setupImages();
   currentScene = new startupScene();
   defaultBG = color(230);
