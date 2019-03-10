@@ -10,7 +10,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(WIDTH, HEIGHT);
   fontSize = (50/800) * width;
   setupImages();
   currentScene = new startupScene();
