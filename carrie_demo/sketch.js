@@ -14,7 +14,7 @@ function setup() {
   fontSize = (50/800) * width;
   setupImages();
   currentScene = new startupScene();
-  defaultBG = color(230);
+  defaultBG = color(255);
 
   textFont(font);
   textSize(fontSize);
