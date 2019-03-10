@@ -13,7 +13,6 @@ function setup() {
   createCanvas(WIDTH, HEIGHT);
   fontSize = (50/800) * WIDTH;
   setupImages();
-  img = loadImage('image1.png');
   currentScene = new startupScene();
   defaultBG = color(230);
 
