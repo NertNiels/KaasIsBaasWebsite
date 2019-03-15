@@ -200,7 +200,7 @@ html, body {
   display: inline-block;
   float:left;
   text-align: center;
-  width:50%;
+/*   width:50%; */
 }
 
 .image-container img {
