@@ -4,6 +4,8 @@ body {
   height: 100%;
 
   background-color: #787878;
+  background-image: url("../assets/green-grey_background.jpg");
+  background-position: center;
 
 }
 
