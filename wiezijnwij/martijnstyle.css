@@ -196,17 +196,6 @@ html, body {
   }
 }
 
-.image-container {
-  display: inline-block;
-  float:left;
-  text-align: center;
-/*   width:50%; */
-}
-
-.image-container img {
-  width:95%;
-}
-
 
 @media screen and (max-width:1080px) {
   .image-container, .video-container {
