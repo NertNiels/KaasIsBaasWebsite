@@ -207,16 +207,6 @@ html, body {
   width:95%;
 }
 
-.video-container {
-  float:left;
-  text-align: center;
-  width: 95%;
-  height: auto;
-}
-
-.video-container video {
-  width: 95%;
-}
 
 @media screen and (max-width:1080px) {
   .image-container, .video-container {
