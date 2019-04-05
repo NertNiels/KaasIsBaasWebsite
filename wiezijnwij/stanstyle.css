@@ -2,6 +2,7 @@
 @font-face {
   src: url(/fonts/GlacialIndifference-Bold.otf);
   font-family: GlacialIndifference;
+  color: black;
 }
 
 html, body {
