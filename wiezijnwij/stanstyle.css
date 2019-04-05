@@ -142,6 +142,11 @@ html, body {
   color: black;
 }
 
+.white {
+  color: white;
+}
+
+
 .tab {
   padding-left: 5em;
 }
