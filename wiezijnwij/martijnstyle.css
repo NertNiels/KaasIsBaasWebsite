@@ -196,10 +196,3 @@ html, body {
   }
 }
 
-
-@media screen and (max-width:1080px) {
-  .image-container, .video-container {
-    display: block;
-    width:100%;
-  }
-}
