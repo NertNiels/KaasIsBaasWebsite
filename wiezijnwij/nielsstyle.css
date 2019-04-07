@@ -1,6 +1,6 @@
 
 @font-face {
-  src: url(fonts/GlacialIndifference-Bold.otf);
+  src: url(/fonts/GlacialIndifference-Bold.otf);
   font-family: GlacialIndifference;
 }
 
@@ -93,6 +93,7 @@ html, body {
 
   font-size: 5vw;
 
+  margin-right: 2vw;
   padding-top: 0;
 }
 
@@ -107,12 +108,12 @@ html, body {
 }
 
 #right img {
-  max-width: 100%;
+  max-width: 50%;
   height:auto;
 }
 
 #header img {
-  padding: 0;
+  margin-left: 2vw;
   display: block;
 }
 
@@ -157,7 +158,7 @@ html, body {
   background-color: 528fff;
 }
 
-#hobbies {
+#greencontainer {
   background-color: #5979ff;
 }
 
