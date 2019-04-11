@@ -1,3 +1,8 @@
+@font-face {
+  src: url(/fonts/GlacialIndifference-Bold.otf);
+  font-family: GlacialIndifference;
+  color: black;
+
 html {
   
   background: url("../assets/green-grey_background.jpg") no-repeat center center fixed;
