@@ -50,7 +50,7 @@ body {
 #navi ul a {
 
   line-height: 10vh;
-  display: center;
+
   display: inline-block;
   padding-left: 16px;
   padding-right: 16px;
@@ -60,6 +60,11 @@ body {
   font-family: GlacialIndifference;
   text-align: center center;
   text-decoration: none;
+  color: black;
+}
+
+#navi ul a:hover {
+  background-color: #49a663;
 }
 
 #navi ul a:hover {
