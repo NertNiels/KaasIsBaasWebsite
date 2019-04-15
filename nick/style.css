@@ -1,6 +1,13 @@
+@font-face {
+  src: url(fonts/GlacialIndifference-Bold.otf);
+  font-family: GlacialIndifference;
+}
+
+
+
 html {
   
-  background: url("../assets/green-grey_background.jpg") no-repeat center center fixed;
+  background: url("/assets/green-grey_background.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
