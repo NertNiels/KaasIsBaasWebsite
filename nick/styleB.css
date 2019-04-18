@@ -1,5 +1,5 @@
 @font-face {
-  src: url(fonts/GlacialIndifference-Bold.otf);
+  src: url(/fonts/GlacialIndifference-Bold.otf);
   font-family: GlacialIndifference;
 }
 
@@ -192,34 +192,5 @@ html, body {
 @media screen and (max-width:480px) {
   .text-container p {
     font-size:5vw;
-  }
-}
-
-.image-container {
-  display: inline-block;
-  float:left;
-  text-align: center;
-/*   width:50%; */
-}
-
-.image-container img {
-  width:95%;
-}
-
-.video-container {
-  float:left;
-  text-align: center;
-  width: 95%;
-  height: auto;
-}
-
-.video-container video {
-  width: 95%;
-}
-
-@media screen and (max-width:1080px) {
-  .image-container, .video-container {
-    display: block;
-    width:100%;
   }
 }
