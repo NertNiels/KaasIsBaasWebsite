@@ -18,11 +18,11 @@ body {
   margin: 0px;
   padding: 0px;
   height: 100%;
-  background-color: #626262;
+  background-color: #535353;
 }
 
 #navi {
-  background-color: #626262;
+  background-color: #535353;
   width: 100%;
   height: 7vh;
   position: fixed;
@@ -38,7 +38,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #626262;
+  background-color: #535353;
 }
 
 li {
@@ -78,7 +78,7 @@ li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #787878;}
+.dropdown-content a:hover {background-color: #535353;}
 
 .dropdown:hover .dropdown-content {
   display: block;
