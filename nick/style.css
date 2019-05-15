@@ -72,8 +72,7 @@ li.dropdown {
 
 .dropdown-content a {
   color: black;
-  padding: 0 16px;
-  height: 7vh;
+  padding: 14px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
