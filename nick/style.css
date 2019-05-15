@@ -66,14 +66,14 @@ li.dropdown {
   display: none;
   position: absolute;
   background-color: white;
-  height: 7vh;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
   color: black;
-  padding: 12px 16px;
+  padding: 0 16px;
+  height: 7vh;
   text-decoration: none;
   display: block;
   text-align: left;
