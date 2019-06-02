@@ -73,10 +73,6 @@ body {
 
 #container ul li:hover{
 	background-color: #B6DC13;
-
-}
-
-#container ul li a:hover{
 	color: black;
 }
 
