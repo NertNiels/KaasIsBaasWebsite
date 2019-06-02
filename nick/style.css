@@ -49,7 +49,7 @@ body {
 }
 
 #container {
-	margin-left: 10vh;
+	margin-left: 8vh;
 }
 #container ul {
 	list-style: none;
@@ -85,7 +85,7 @@ body {
 }
 
 #container ul ul ul {
-	margin-left: 120px;
+	margin-left: 10px;
 	top: 0px;
 	position: absolute;
 }
