@@ -28,9 +28,7 @@ body {
   font-size: 300%;
   text-align: center;
   opacity: 0.4;
-  color: white;
-  z-index: -100;
-  
+  color: white;  
 }
 
 #navi {
