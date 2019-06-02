@@ -59,8 +59,7 @@ body {
 #container ul li {
 	background-color: #535353;
 	width: 100px;
-	border: 0.5px solid white;
-	border-radius: 5px;
+	border-radius: 7px;
 	height: 7vh;
 	line-height: 7vh;
 	text-align: center;
