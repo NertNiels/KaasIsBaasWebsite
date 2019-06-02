@@ -47,6 +47,10 @@ body {
 	margin: 0px;
 	padding: 0px;
 }
+
+#container {
+	left: 20%;
+}
 #container ul {
 	list-style: none;
 
