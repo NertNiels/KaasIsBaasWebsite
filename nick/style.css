@@ -76,6 +76,10 @@ body {
 
 }
 
+#container ul li a:hover{
+	color: black;
+}
+
 #container ul ul {
 	display: none;
 }
