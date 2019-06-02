@@ -23,9 +23,9 @@ body {
 
 #title {
   position: fixed;
-  top: 50%;
+  bottom: 30%;
   width: 100%;
-  font-size: 300%;
+  font-size: 600%;
   text-align: center;
   opacity: 0.4;
   color: white;  
