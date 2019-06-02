@@ -21,6 +21,12 @@ body {
   background-color: #535353;
 }
 
+#title {
+  position: fixed;
+  width: 100%;
+  
+}
+
 #navi {
   background-color: #535353;
   width: 100%;
