@@ -75,6 +75,10 @@ body {
 	color: black;
 }
 
+#container ul li a {
+	text-decoration: none;
+}
+
 #container ul ul {
 	display: none;
 }
