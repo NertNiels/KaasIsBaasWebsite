@@ -66,6 +66,7 @@ body {
 	float: left;
 	color: white;
 	font-size: 19px;
+	text-decoration: none;
 	position: relative;
 
 }
@@ -73,10 +74,6 @@ body {
 #container ul li:hover{
 	background-color: #B6DC13;
 	color: black;
-}
-
-#container ul li a {
-	text-decoration: none;
 }
 
 #container ul ul {
