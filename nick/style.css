@@ -131,3 +131,11 @@ body {
     display: none;
   }
 }
+
+.para {
+  margin-top: 0px;
+  padding-bottom: 10%;
+  margin-bottom:0px;
+  width: 100%;
+  background-color: 535353;
+}
