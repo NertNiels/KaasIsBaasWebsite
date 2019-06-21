@@ -134,6 +134,7 @@ body {
 
 .para {
 	width: 100%;
-	bottom: 8vh;
+	height: 100%;
+	top: 9vh;
 	background-color: #535353;
 }
