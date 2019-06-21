@@ -49,7 +49,9 @@ body {
 }
 
 #container {
+	position:fixed;
 	margin-left: 8vh;
+	z-index: 10;
 }
 #container ul {
 	list-style: none;
@@ -101,7 +103,7 @@ body {
 }
 
 .fullscreen-bg__video {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -134,7 +136,21 @@ body {
 
 .para {
 	width: 100%;
-	height: 100%;
-	top: 9vh;
 	background-color: #535353;
+}
+
+#top {
+	position: absolute;
+  	top: 0;
+  	left: 10%;
+  	width: 80%;
+  	height: 100%;
+}
+
+#info {
+	position: absolute;
+  	top: 100%;
+  	left: 10%;
+  	width: 80%;
+  	height: 100%;
 }
