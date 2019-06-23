@@ -176,3 +176,8 @@ body {
 	color: white;
 	text-align: center;
 }
+
+#node-red {
+	width: 80%;
+	height: 100%;
+}
