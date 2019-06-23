@@ -136,7 +136,6 @@ body {
 
 .para {
 	width: 100%;
-	background-color: #535353;
 }
 
 #top {
@@ -145,6 +144,7 @@ body {
   	left: 10%;
   	width: 80%;
   	height: 100%;
+	
 }
 
 #info {
@@ -153,4 +153,5 @@ body {
   	left: 10%;
   	width: 80%;
   	height: 100%;
+	background-color: #636363;
 }
