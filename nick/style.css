@@ -37,6 +37,7 @@ body {
   height: 7vh;
   position: fixed;
   top: 0;
+  z-index: 100;
 }
 #navi img {
   float: left;
