@@ -171,7 +171,8 @@ body {
 	left: 5%;
 }
 
-.weetjes h1 {
+#title_weetjes {
 	font-size: 200%;
 	color: white;
 	text-align: center;
+}
