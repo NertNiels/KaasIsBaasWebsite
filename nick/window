@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="/nick/style.css">
+    <link rel="shortcut icon" href="../assets/favicon.ico"/>
+    <div class="fullscreen-bg">
+      <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+        <source src="https://static.videezy.com/system/resources/previews/000/018/316/original/ICON-VERSION8.mp4" type="video/mp4">
+      </video>
+      <div id="title">
+        <h1 style="font-family:impact;">Nick Oost</h1>
+      </div>
+    </div>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <title>Nick Oost</title>
+  
+  </head>
+  <body>
+    <div id="navi">
+      <a href="#top"><img src="/nick/navi_icon.png" height="100%"></a>
+    </div>
+    </div>
+  <div id="container">
+		<ul>
+			<a href="/"><li>home</li></a>
+			<li>nick
+				<ul>
+					<li>oost</li>
+					<li>west
+						<ul>
+							<li>maar</li>
+							<li>oost</li>
+							<li>is</li>
+							<li>het</li>
+							<li>best</li>
+						</ul>
+					</li>
+					<li>thuis</li>
+					<li>best</li>
+				</ul>
+			</li>
+			<li>oost</li>
+			<li>node-red
+				<ul>
+					<a href="/nick/verwachting_weer_nl.html"><li>test</li></a>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div class="para" id="top">
+		<h1 class="header">test</h1>
+	</div>
+	<div class="para" id="info">
+		<h1 class="info">test 123</h1>
+	</div>
+	
+  </body>
+</html>
