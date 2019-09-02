@@ -4,10 +4,11 @@
   <body>
     <h1>Create a new Recipe</h1>
     
-    <form>
+    <form onsubmit="console.log(this[\"recipe_name\"]);">
       Name of the recipe: <input type="text" name="recipe_name" placeholder="Name of recipe here"><br>
-      Language: <input type="text" name="recipe_language" placeholder="i.e. en or nl">
+      Language: <input type="text" name="recipe_language" placeholder="i.e. en or nl"><br>
       Number of Steps: <input type="number" name="recipe_numberofsteps">
+      <input type="submit" value="Create template"><br>
     </form>
   </body>
 </html>
