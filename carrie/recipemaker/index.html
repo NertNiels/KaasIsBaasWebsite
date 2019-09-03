@@ -7,7 +7,7 @@
     Name of the recipe: <input type="text" name="recipe_name" placeholder="Name of recipe here"><br>
     Language: <input type="text" name="recipe_language" placeholder="i.e. en or nl"><br>
     Number of Steps: <input type="number" name="recipe_numberofsteps"><br>
-    <button type="button">Create Template</button><br>
+    <button type="button" onclick="createSteps()">Create Template</button><br>
     
     <ol type="1">
       <li>
@@ -15,6 +15,13 @@
         Speech: <input type="text" name="step_n_speech" placeholder="What do I have to say?"><br>
       </li>
     </ol>
+    
+    <script type="text/javascript">
+      function createSteps() {
+        var no_steps = document.getElementByName("recipe_numberofsteps").value;
+        console.log(no_steps);
+      }
+    </script>
     
   </body>
 </html>
