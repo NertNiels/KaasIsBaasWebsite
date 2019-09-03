@@ -27,7 +27,7 @@
       function createFile() {
         NodeList.prototype.forEach = Array.prototype.forEach;
         var list = document.getElementById("steps").childNodes;
-        for(i = 0; i < list.size(); i++) {
+        for(i = 0; i < list.length; i++) {
           var text = document.getElementsByName("text_step_" + i);
           console.log(text);
         }
