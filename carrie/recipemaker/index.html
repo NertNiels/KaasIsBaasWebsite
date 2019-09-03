@@ -25,9 +25,10 @@
       }
       
       function createFile() {
+        NodeList.prototype.forEach = Array.prototype.forEach;
         var list = document.getElementById("steps").childNodes;
         list.forEach((item) => {
-          console.log(item.querySelector('input[name="text_step"]'));
+          console.log(item.childNodes);
         });
       }
     </script>
