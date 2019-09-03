@@ -9,7 +9,7 @@
     Number of Steps: <input type="number" name="recipe_numberofsteps"><br>
     <button type="button" onclick="createSteps()">Create Template</button><br>
     
-    <ol type="1">
+    <ol type="1" id="steps">
       <li>
         Text: <input type="text" name="step_n_text" placeholder="What do you see on screen?"><br>
         Speech: <input type="text" name="step_n_speech" placeholder="What do I have to say?"><br>
@@ -20,6 +20,11 @@
       function createSteps() {
         var no_steps = document.getElementsByName("recipe_numberofsteps")[0].value;
         console.log(no_steps);
+        var i;
+        for(i = 0; i < no_steps; i++) {
+          var li = document.createElement("LI");
+          document.getElementById("steps").appendChild(li);
+        }
       }
     </script>
     
