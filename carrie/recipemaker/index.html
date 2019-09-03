@@ -19,7 +19,7 @@
         var i;
         for(i = 0; i < no_steps; i++) {
           var li = document.createElement("LI");
-          li.innerHTML = "Text: <input type=\"text\" name=\"text_step\" placeholder=\"What do you see on screen?\"><br>Speech: <input type=\"text\" name=\"speech_step\" placeholder=\"What do I have to say?\"><br>";
+          li.innerHTML = "Text: <input type=\"text\" name=\"text_step_" + i + "\" placeholder=\"What do you see on screen?\"><br>Speech: <input type=\"text\" name=\"speech_step_" + i + "\" placeholder=\"What do I have to say?\"><br>";
           document.getElementById("steps").appendChild(li);
         }
       }
@@ -27,10 +27,10 @@
       function createFile() {
         NodeList.prototype.forEach = Array.prototype.forEach;
         var list = document.getElementById("steps").childNodes;
-        list.forEach((item) => {
-          console.log(item.childNodes[1].value);
-          console.log(item.childNodes[4].value);
-        });
+        for(i = 0; i < list.size(); i++) {
+          var text = document.getElementsByName("text_step_" + i);
+          console.log(text);
+        }
       }
     </script>
      <button type="button" onclick="createFile()">Make Recipe</button>
