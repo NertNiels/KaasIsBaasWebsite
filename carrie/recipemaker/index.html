@@ -28,9 +28,12 @@
         NodeList.prototype.forEach = Array.prototype.forEach;
         var list = document.getElementById("steps").childNodes;
         for(i = 0; i < list.length; i++) {
-          console.log(document.getElementsByName("text_step_" + i))
-          var text = document.getElementsByName("text_step_" + i)[0].value;
-          console.log(text);
+          try {
+            var text = document.getElementsByName("text_step_" + i)[0].value;
+            console.log(text);
+          } catch(e) {
+            
+          }
         }
       }
     </script>
