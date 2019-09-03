@@ -19,11 +19,19 @@
         var i;
         for(i = 0; i < no_steps; i++) {
           var li = document.createElement("LI");
-          li.innerHTML = "Text: <input type=\"text\" name=\"step_n_text\" placeholder=\"What do you see on screen?\"><br>Speech: <input type=\"text\" name=\"step_n_speech\" placeholder=\"What do I have to say?\"><br>";
+          li.innerHTML = "Text: <input type=\"text\" name=\"text_step\" placeholder=\"What do you see on screen?\"><br>Speech: <input type=\"text\" name=\"speech_step\" placeholder=\"What do I have to say?\"><br>";
           document.getElementById("steps").appendChild(li);
         }
       }
+      
+      function createFile() {
+        var list = document.getElementById("steps").childNodes;
+        list.forEach((item) => {
+          console.log(item);
+        });
+      }
     </script>
+     <button type="button" onclick="createFile()">Make Recipe</button>
     
   </body>
 </html>
