@@ -4,10 +4,12 @@
   <body>
     <h1>Create a new Recipe</h1>
 
-    Name of the recipe: <input type="text" name="recipe_name" placeholder="Name of recipe here"><br>
-    Language: <input type="text" name="recipe_language" placeholder="i.e. en or nl"><br>
+    Name of the recipe: <input type="text" id="recipe_name" placeholder="Name of recipe here"><br>
+    Language: <input type="text" id="recipe_language" placeholder="i.e. en or nl"><br>
     Number of Steps: <input type="number" name="recipe_numberofsteps"><br>
     <button type="button" onclick="createSteps()">Create Template</button><br>
+
+    <p>Do you want to know what I sound like? Please use Google Translate for this! <strong>Text</strong> is what I say, <strong>speech</strong> is what I pronounce</p>
     
     <ol type="1" id="steps">
     </ol>
@@ -27,14 +29,33 @@
       function createFile() {
         NodeList.prototype.forEach = Array.prototype.forEach;
         var list = document.getElementById("steps").childNodes;
+
+	var final_object = { name: document.getElementById("recipe_name").value, lang: document.getElementById("recipe_language").value, steps: [] };
+
         for(i = 0; i < list.length; i++) {
           try {
             var text = document.getElementsByName("text_step_" + i)[0].value;
-            console.log(text);
+	    var speech = document.getElementsByName("speech_step_" + i)[0].value;
+            console.log(text, speech);
+	    final_object.steps[i] = { type: "say", text: text, speech: speech, emotion: 1 };
           } catch(e) {
             
           }
         }
+
+	var final_string = JSON.stringify(final_object);
+	console.log(final_string);
+	downloadObjectAsJson(final_object, final_object.name);
+      }
+
+      function downloadObjectAsJson(exportObj, exportName) {
+    	var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(exportObj));
+    	var downloadAnchorNode = document.createElement('a');
+    	downloadAnchorNode.setAttribute("href",     dataStr);
+    	downloadAnchorNode.setAttribute("download", exportName + ".json");
+    	document.body.appendChild(downloadAnchorNode); // required for firefox
+    	downloadAnchorNode.click();
+    	downloadAnchorNode.remove();
       }
     </script>
      <button type="button" onclick="createFile()">Make Recipe</button>
