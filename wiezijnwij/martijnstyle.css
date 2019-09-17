@@ -56,7 +56,7 @@ html, body {
   padding-left: 16px;
   padding-right: 16px;
 
-  color: #cd1111;
+  color: #000000;
 
   font-family: GlacialIndifference;
   text-align: center center;
@@ -64,13 +64,13 @@ html, body {
 }
 
 #navi ul a:hover {
-  background-color: #b60c0c;
+  background-color: #cd1111;
 }
 
 
 
 #header {
-  background-color: #000000;
+  background-color: #b60c0c;
   width: 100%;
   height: 100%;
 
