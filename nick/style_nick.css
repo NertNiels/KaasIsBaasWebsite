@@ -82,6 +82,9 @@ html, body {
 .black {
   color: black;
 }
+.white{
+  color: white;
+}
 
 .tab {
   padding-left: 5em;
