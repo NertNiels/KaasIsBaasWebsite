@@ -8,12 +8,12 @@ html, body {
   padding: 0px;
   height: 100%;
 
-  background-color: #52311f;
+  background-color: #5231ff;
 
 }
 
 #header {
-  background-color: #5271ff;
+  background-color: #5231ff;
   width: 100%;
   height: 100%;
 
@@ -178,7 +178,7 @@ ul.topnav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #52311f;
+  background-color: #5231ff;
 }
 
 ul.topnav li {float: left;}
