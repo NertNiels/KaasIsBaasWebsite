@@ -1,15 +1,59 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+	<style>
+	body {margin: 0;}
 
-  <head>
-    <link rel="stylesheet" type="text/css" href="/nick/style_nick.css">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
-    <title>Nick Oost</title>
-    <link rel="shortcut icon" type="image/png" href="/assets/favicon.png"/>
-  </head>
+	ul.topnav {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  overflow: hidden;
+	  background-color: #333;
+	}
+
+	ul.topnav li {float: left;}
+
+	ul.topnav li a {
+	  display: block;
+	  color: white;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	}
+
+	ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+	ul.topnav li a.active {background-color: #4CAF50;}
+
+	ul.topnav li.right {float: right;}
+
+	@media screen and (max-width: 600px) {
+	  ul.topnav li.right, 
+	  ul.topnav li {float: none;}
+	}
+	</style>
+	  <head>
+	    <link rel="stylesheet" type="text/css" href="/nick/style_nick.css">
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+	    <title>Nick Oost</title>
+	    <link rel="shortcut icon" type="image/png" href="/assets/favicon.png"/>
+	  </head>
 
   <body id="top">  
+	<ul class="topnav">
+  		<li><a class="active" href="#home">Home</a></li>
+  		<li><a href="#news">News</a></li>
+  		<li><a href="#contact">Contact</a></li>
+  		<li class="right"><a href="#about">About</a></li>
+	</ul>
+    <div id="left">
+        <h1>
+		<span class="black">Tech</span>
+		<br>Nick Oost<br>
+		<span class="black">KIB</span>
+	</h1>
+    </div>
     <div class="para" id="header">
 
 	  <div id="right">
