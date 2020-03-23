@@ -179,7 +179,6 @@ ul.topnav {
   padding: 0;
   overflow: hidden;
   background-color: #5231ff;
-  position: fixed;
 }
 
 ul.topnav li {float: left;}
