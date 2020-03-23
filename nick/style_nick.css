@@ -189,6 +189,7 @@ ul.topnav li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: GlacialIndifference;
 }
 
 ul.topnav li a:hover {background-color: #5271ff;}
