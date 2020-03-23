@@ -8,7 +8,7 @@ html, body {
   padding: 0px;
   height: 100%;
 
-  background-color: #528fff;
+  background-color: #5271ff;
 
 }
 
@@ -178,7 +178,7 @@ ul.topnav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #528fff;
+  background-color: #5271ff;
 }
 
 ul.topnav li {float: left;}
@@ -193,7 +193,7 @@ ul.topnav li a {
 
 ul.topnav li a:hover:not(.active) {background-color: #111;}
 
-ul.topnav li a.active {background-color: #4CAF50;}
+ul.topnav li a.active {background-color: #5271ff;}
 
 ul.topnav li.right {float: right;}
 
