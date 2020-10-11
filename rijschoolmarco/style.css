@@ -3,7 +3,9 @@ body{
 }
 nav{
 	background-color: darkblue;
+	width: 100%;
 }
 .nav-button{
+	height: 100px;
 
 }
