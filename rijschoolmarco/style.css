@@ -4,6 +4,8 @@ body{
 nav{
 	background-color: #03318f;
 	width: 100%;
+	position: fixed;
+	top: 0;
 }
 .nav-button{
 	height: 100px;
