@@ -8,6 +8,19 @@ nav{
 	top: 0;
 }
 .nav-button{
-	height: 100px;
+	height: 150px;
+}
 
+nav a {
+	display: inline-block;
+	padding-left: 16px;
+	padding-right: 16px;
+	color: #ffffff;
+	font-family: GlacialIndifference;
+	text-align: center center;
+	text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #274efd;
 }
